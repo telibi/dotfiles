@@ -46,3 +46,9 @@ repo = 'nathanaelkane/vim-indent-guides'
 
 [[plugins]]
 repo = 'scrooloose/syntastic'
+
+[[plugins]]
+repo = 'Shougo/unite.vim'
+
+[[plugins]]
+repo = 'Shougo/vimfiler'
