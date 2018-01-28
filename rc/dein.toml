@@ -52,3 +52,9 @@ repo = 'Shougo/unite.vim'
 
 [[plugins]]
 repo = 'Shougo/vimfiler'
+
+[[plugins]]
+repo = 'Townk/vim-autoclose'
+
+[[plugins]]
+repo = 'cohama/lexima.vim'

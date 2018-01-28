@@ -130,3 +130,6 @@ let g:syntastic_C_checkers = ['gcc']
 
 "vim-indent-guides
 let g:indent_guides_enable_on_vim_startup = 1
+
+"VimFiler
+let g:vimfiler_as_default_explorer = 1
