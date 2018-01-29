@@ -14,7 +14,7 @@ hook_post_update = '''
 	elseif executable('gmake')
 		let cmd = 'gmake'
 	else
-			let cmd = 'make'
+		let cmd = 'make'
 	endif
 	let g:dein#plugin.build = cmd
 '''
@@ -72,3 +72,17 @@ repo = 'cohama/lexima.vim'
 #quickrun
 [[plugins]]
 repo = 'thinca/vim-quickrun'
+
+#snippet--------------------------------------------
+[[plugins]]
+repo = 'Shougo/neocomplcache'
+
+[[plugins]]
+repo = 'Shougo/neosnippet'
+
+[[plugins]]
+repo = 'Shougo/neosnippet-snippets'
+#---------------------------------------------------
+
+[[plugins]]
+repo = 'osyo-manga/vim-anzu'
