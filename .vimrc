@@ -133,3 +133,8 @@ let g:indent_guides_enable_on_vim_startup = 1
 
 "VimFiler
 let g:vimfiler_as_default_explorer = 1
+let g:vimliler_enable_auto_cd = 1
+nnoremap <F10> :VimFiler
+
+"quickrun
+nnoremap <Leader>q :<C-u>bw! \[quickrun\ output\]<CR>

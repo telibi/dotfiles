@@ -38,29 +38,37 @@ depends = ['vim-airline-themes']
 [[plugins]]
 repo = 'vim-airline/vim-airline-themes'
 
+
+#My additional  plugins
+
+#コードの色
 [[plugins]]
 repo = 'tomasr/molokai'
 
+#インデントの可視化
 [[plugins]]
 repo = 'nathanaelkane/vim-indent-guides'
 
+#syntax check
 [[plugins]]
 repo = 'scrooloose/syntastic'
 
+#vimfilerを使うために必要
 [[plugins]]
 repo = 'Shougo/unite.vim'
 
+#vimfiler
 [[plugins]]
 repo = 'Shougo/vimfiler'
 
+#括弧補完
 [[plugins]]
 repo = 'Townk/vim-autoclose'
 
+#閉じ括弧補完
 [[plugins]]
 repo = 'cohama/lexima.vim'
 
-[[plugins]]
-repo = 'Shougo/vimproc'
-
+#quickrun
 [[plugins]]
 repo = 'thinca/vim-quickrun'
