@@ -2,6 +2,11 @@ set number
 set title
 set showmatch
 
+"文字コード
+set encoding=utf-8
+set fileencoding=iso-2022-jp,euc-jp,sjis,utf-8
+set fileformats=unix,dos,mac
+
 " tab--------------------------------------------------
 set tabstop=2
 set softtabstop=2
