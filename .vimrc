@@ -26,18 +26,18 @@ set clipboard=unnamed,autoselect
 set cursorline
 
 "from cripboard to paste------------------------------
-if &term =~ "xterm"
-	let &t_SI .= "\e[?2004h"
-	let &t_EI .= "\e[?20041"
-	let &pastetoggle = "\e[201~"
+"if &term =~ "xterm"
+"	let &t_SI .= "\e[?2004h"
+"	let &t_EI .= "\e[?20041"
+"	let &pastetoggle = "\e[201~"
 
-	function XTermPasteBegin(ret)
-		set paste
-		return a:ret
-	endfunction
+"	function XTermPasteBegin(ret)
+"		set paste
+"		return a:ret
+"	endfunction
 
-	inoremap <special> <eqpr> <Esc>[200~XTermPasteBegin("")
-endif
+"	inoremap <special> <eqpr> <Esc>[200~XTermPasteBegin("")
+"endif
 
 " short cut--------------------------------------------
 inoremap <silent> jj <ESC>
