@@ -49,7 +49,7 @@ repo = 'tomasr/molokai'
 [[plugins]]
 repo = 'nathanaelkane/vim-indent-guides'
 
-#syntax check
+#syntastic check
 [[plugins]]
 repo = 'scrooloose/syntastic'
 
