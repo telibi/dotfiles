@@ -1,6 +1,7 @@
 set number
 set title
 set showmatch
+set scrolloff=3 "余裕を持たせてスクロール"
 
 "文字コード
 set encoding=utf-8
