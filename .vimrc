@@ -42,6 +42,10 @@ set cursorline
 
 " short cut--------------------------------------------
 inoremap <silent> jj <ESC>
+imap <C-p> <Up>
+imap <C-n> <Down>
+imap <C-b> <Left>
+imap <C-f> <Right>
 
 "dein.vim-----------------------------------------------
 if &compatible
