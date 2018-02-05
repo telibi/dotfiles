@@ -1,3 +1,8 @@
 You must to put in following commands.
 
 git clone https://github.com/Shougo/dein.vim.git ~/.vim/dein/repos/github.com/Shougo/dein.vim
+
+1.in the directory ~/dotfiles/dein/repos/github.com/Shougo
+	git clone https://github.com/Shougo/vimproc.vim
+2.in the directory vimproc.vim
+	make -f make_unix.mak
