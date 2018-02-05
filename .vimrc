@@ -49,6 +49,7 @@ imap <C-f> <Right>
 nnoremap Y y$
 nnoremap + <C-a>
 nnoremap - <C-x>
+set pastetoggle=<F3>
 
 "dein.vim-----------------------------------------------
 if &compatible
