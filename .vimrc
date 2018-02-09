@@ -153,6 +153,19 @@ nnoremap <F4> :SyntasticToggleMode
 
 "quickrun
 nnoremap <Leader>q :<C-u>bw! \[quickrun\ output\]<CR>
+let g:quickrun_config = {
+\   "_" :{
+\         "runner" : "vimproc",
+\         "runner/vimproc/updatetime" : 60
+\         },
+\   "tex" : {
+\       'command' : 'latexmk',
+\       "outputter/buffer/split" : ":botright 8sp",
+\       'outputter/error/error' : 'quickfix',
+\       'hook/cd/directory': '%S:h',
+\       'exec': '%c %s'
+\   },
+\}
 
 "noesnnippet------------------------------------------------
 "neocomplcache------
@@ -215,3 +228,4 @@ xmap <C-k>     <Plug>(neosnippet_expand_target)
  nmap # <Plug>(anzu-sharp-with-echo)
  nmap <Esc><Esc> <Plug>(anzu-clear-search-status)
  set statusline=%{anzu#search_status()}
+
