@@ -6,3 +6,5 @@ git clone https://github.com/Shougo/dein.vim.git ~/.vim/dein/repos/github.com/Sh
 	git clone https://github.com/Shougo/vimproc.vim
 2.in the directory vimproc.vim
 	make -f make_unix.mak
+
+git clone https://github.com/Shougo/vimproc.vim ~/.vim/dein/repos/github.com/Shougo
